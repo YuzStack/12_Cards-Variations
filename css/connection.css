@@ -1,0 +1,74 @@
+/* Body Styling */
+.connection-body {
+    background-image: url(../assets/img/02_connection_page/1.\ Colorful\ Minimalist\ Space\ Desktop\ Wallpaper.png);
+    background-size: contain no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+
+/* Main Content Styling */
+.connection-main {
+    /* border: 2px solid white; */
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 80vh;
+    margin-top: 5rem;
+}
+
+.unit-card {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem 3rem;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+    /* border: 2px solid #F0F1F7; */
+    outline: 1px solid #F0F1F7;
+}
+
+.unit-card:hover {
+    transform: scale(1.08);
+}
+
+.unit-card img {
+    height: 10rem;
+    margin-top: 1.5rem;
+}
+
+.unit-card h2 {
+    margin: 1rem 0;
+    letter-spacing: 1px;
+}
+
+.unit-card p {
+    font-size: 18px;
+}
+
+.unit-card a {
+    display: block;
+    text-decoration: none;
+    color: #A1A8C0;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid #DADCEA;
+    border-radius: 8px;
+    width: 18rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* background-image: none; */
+    transition: 0.3s ease-in-out;
+}
+
+.unit-card a:hover {
+    background-color: #748DFF;
+    /* background-image: linear-gradient(to right, #211C1D, #A1316B, #211C1D); */
+    color: white;
+}

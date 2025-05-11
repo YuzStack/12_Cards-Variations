@@ -1,0 +1,7 @@
+/* Body Styling */
+.pricing-body {
+    background-image: url(../assets/img/03_pricing_page/1.\ Red\ &\ Blue\ Modern\ Laser\ Hi-tech\ Desktop\ Wallpaper.png);
+    background-size: contain no-repeat;
+    height: 100vh;
+    background-position: center;
+}
