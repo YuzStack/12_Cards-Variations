@@ -9,7 +9,6 @@
     background-image: url(./assets/img/01_product_page/1.\ Black\ Abstract\ Minimalist\ Zoom\ Virtual\ Background.png);
     background-size: contain no-repeat;
     height: 100vh;
-
 }
 
 
@@ -72,23 +71,39 @@
 
 
 /* Main Content Styling */
-main {
+.product-main {
     /* border: 2px solid white; */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    height: 90vh;
+    height: 80vh;
+    margin-top: 5rem;
 }
 
-main img { 
+/* .product-main figure {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+} */
+
+/* .product-main figure:hover {
+    transform: scale(1.1);
+} */
+
+.product-main img { 
     width: 400px;
     height: 50vh;
     border-radius: 30px;
     border: 1px #968a8a65 solid;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
 }
 
-main figcaption {
+.product-main img:hover {
+    transform: scale(1.2);
+}
+
+.product-main figcaption {
     margin-top: 13px;
     text-align: center;
     color: white;
@@ -100,12 +115,12 @@ main figcaption {
     word-spacing: 7px;
 }
 
-main figure div {
+.product-main figure div {
     text-align: center;
     margin-top: 1rem;
 }
 
-main figure p {
+.product-main figure p {
     display: inline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #dcc46e;
@@ -117,14 +132,14 @@ main figure p {
     padding: 2.5px;
 }
 
-main figure .buttons {
+.product-main figure .buttons {
     display: flex;
     justify-content: center;
     gap: 3rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-main figure button {
+.product-main figure button {
     margin-top: 1rem;
     background-color: #1a1a1a;
     border: 2px rgb(52, 52, 231) solid;
@@ -134,18 +149,18 @@ main figure button {
     cursor: pointer;
 }
 
-main figure a {
+.product-main figure a {
     text-decoration: none;
     color: white;
 }
 
 @media screen and (max-width: 1400px) {
-    main img { 
+    .product-main img { 
         width: 350px;
         height: 50vh;
     }
 
-    main figure button {
+    .product-main figure button {
         font-size: 1.1rem;
     }
 }
