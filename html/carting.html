@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Variations | Carting</title>
+    <link rel="stylesheet" href="../css/carting.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="carting-body">
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="../index.html">Product</a></li>
+            <li><a href="./connection.html">Connection</a></li>
+            <li><a href="./pricing.html">Pricing</a></li>
+            <li><a href="./carting.html">Carting</a></li>
+            <li class="new-feature"><a href="./new.feature.html">New Feature</a></li>
+        </ul>
+    </nav>
+
+    <main class="carting-main">
+        <div class="content-container">
+            <h2>Card Details:</h2>
+            <form>
+                <label for="card-number">
+                    Card Number:
+                    <input type="number" name="card-number" id="card-number">
+                </label>
+
+                <div class="flexed-inputs">
+                    <label for="Expiry">
+                        Expiry:
+                        <input type="text" name="Expiry" id="Expiry" placeholder="MM/YY">
+                    </label>
+
+                    <label for="CVV">
+                        CVV:
+                        <input type="password" name="CVV" id="" placeholder="123">
+                    </label>
+                </div>
+
+                <label for="name-on-card">
+                    Name on Card:
+                    <input type="text" name="name-on-card" id="name-on-card">
+                </label>
+
+                <input type="submit" value="Complete Payment">
+            </form>
+        </div>
+    </main>
