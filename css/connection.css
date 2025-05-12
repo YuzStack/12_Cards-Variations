@@ -69,6 +69,6 @@
 
 .unit-card a:hover {
     /* background-color: #748DFF; */
-    background-image: linear-gradient(to right, #211C1D, #A1316B, #211C1D);
+    background-image: linear-gradient(to right, #211C1D, #A1316B, #95572F);
     color: white;
 }
