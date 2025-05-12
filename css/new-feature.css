@@ -1,0 +1,94 @@
+.new-feature-body {
+    background-image: url(../assets/img/05_new-feature_page/1.\ Blue\ Abstract\ Gradient\ Background\ Jamboard\ Background.png);
+    background-size: contain no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+.new-feature-main {
+    /* border: 2px solid white; */
+    display: flex;
+    gap: 1.3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 80vh;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+.content-container {
+    background-color: #fff;
+    box-shadow: 0 5px 5px black;
+    padding: 5rem 2rem 3rem;
+    border-radius: 10px;
+    width: 60vw;
+    /* height: 70vh; */
+}
+
+.close-btn-container {
+    text-align: end;
+    margin-top: -4rem;
+}
+
+.close-btn {
+    font-size: 3rem;
+    color: #777;
+    cursor: pointer;
+    display: inline;
+}
+
+.main-flex {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+
+    @media (width > 720px) {
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+.content-container img {
+    width: 15vw;
+}
+
+.text-container {
+    h4 {
+        margin-bottom: 1rem;
+        color: #242E4C
+    }
+    
+    p {
+        color: #242E4C;
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+
+    .flexed-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    button {
+        display: block;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-size: 1.2rem;
+        border: none;
+        background-color: white;
+        margin-top: 2rem;
+        cursor: pointer;
+    }
+
+    .colored-btn {
+        background-image: linear-gradient(to right, #7FB2FC, #b4affd);
+        color: white;
+        transform: scale(1);
+        transition: 0.3s ease-in-out;
+    }
+
+    .colored-btn:hover {
+        transform: scale(1.05);
+    }
+}
