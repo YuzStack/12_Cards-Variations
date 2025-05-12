@@ -1,7 +1,89 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap"); */
+
 /* Body Styling */
 .pricing-body {
     background-image: url(../assets/img/03_pricing_page/1.\ Red\ &\ Blue\ Modern\ Laser\ Hi-tech\ Desktop\ Wallpaper.png);
     background-size: contain no-repeat;
     height: 100vh;
     background-position: center;
+    /* font-family: "Mulish", sans-serif !important; */
+}
+
+.pricing-main {
+    /* border: 2px solid white; */
+    display: flex;
+    gap: 1.3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 80vh;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+.individual-card {
+    background-color: #fff;
+    /* padding: 2rem; */
+    border-radius: 15px;
+    /* transform: scale(1);
+    transition: 0.3s ease-in-out; */
+}
+
+/* .individual-card:hover {
+    transform: scale(1.1);
+} */
+
+.headings-container {
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    background-color: #D2D8EE;
+    padding: 2rem;
+    border-radius: 15px 15px 0 0;
+}
+
+.pricing-CTA {
+    position: relative;
+}
+
+.pricing-cta {
+    /* background-color: #1a1a1a; */
+    /* background-image: linear-gradient(to right, #262550, #ED83ED); */
+    background-image: linear-gradient(to right, #000, #000);
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: background-image 0.5s ease-in-out;
+    z-index: 200;
+}
+
+.pricing-cta:hover {
+    background-image: linear-gradient(to right, #262550, #ED83ED);
+}
+
+/* .pricing-cta::after {
+    content: "";
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    height: 3.5rem;
+    width: 11.4rem;
+    background-color: #fff;
+    border-radius: 8px;
+    z-index: 100;
+} */
+
+.checklists-container {
+    padding: 1rem 5rem 3rem 2rem;
+    font-size: 1.2rem;
+}
+
+.checklists {
+    list-style-type: none;
+    line-height: 2;
 }
